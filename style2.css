@@ -139,10 +139,6 @@ aside p {
   background-size: contain;
   margin-right: 8px;
 }
-.bg {
-  background-color: var(--cor5);
-  margin: -20px;
-}
 .container {
   position: relative;
   padding-bottom: 56.25%;
@@ -193,9 +189,20 @@ footer {
 @media (max-width: 600px) {
   .versao p {
     font-size: 0.6rem;
-    line-height: 1rem;
+    line-height: 1.4rem;
   }
   aside h3 {
     text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .menu h1 {
+    font-size: 2rem;
+  }
+  .menu p {
+    font-size: 1rem;
+  }
+  .principal a::after {
+    content: url("./pacote-projeto-d010/imagens/llink\ menor.svg");
   }
 }
